@@ -7,7 +7,17 @@
 <ul>
 <li>
 <b>Reliability:</b><p> MySQL offers robust data storage and retrieval, ensuring the integrity of your information.</p>
+</li>
+<li>
 <b>Performance:</b><p> With optimized query execution and indexing, MySQL delivers high-speed data processing.</p>
+</li>
+<li>
 <b>Flexibility:</b> <p>Support for SQL (Structured Query Language) allows for flexible and efficient data manipulation.</p>
+</li>
+<li>
 <b>Scalability:</b> <p>MySQL scales seamlessly to handle growing data requirements, making it suitable for projects of all sizes.</p>
+</li>
+<li>
 <b>Community Support: </b></p>Being open-source, MySQL benefits from a large and active community, providing extensive documentation and support.</p>
+</li>
+</ul>
