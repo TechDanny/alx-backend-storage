@@ -1,5 +1,5 @@
 -- This script creates a stored procedure
-DROP procedure IF EXISTS ComputeAverageWeightedScoreForUser;
+DROP PROCEDURE IF EXISTS ComputeAverageWeightedScoreForUser;
 DELIMITER $$
 CREATE PROCEDURE ComputeAverageWeightedScoreForUser()
 BEGIN
