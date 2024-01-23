@@ -17,7 +17,7 @@
 </li>
 <li><b>Key-Value Stores:</b> Simple key-value pairs, efficient for high-throughput read and write operations (e.g., Redis).
 </li>
-</li><b>Column-family Stores:</b> Organize data in columns rather than rows, optimized for read and write performance (e.g., Apache Cassandra).
+<li><b>Column-family Stores:</b> Organize data in columns rather than rows, optimized for read and write performance (e.g., Apache Cassandra).
 </li>
 <li><b>Graph Databases:</b> Model and store data as nodes, edges, and properties, suitable for complex relationships (e.g., Neo4j).
 </li>
