@@ -12,7 +12,7 @@ def top_students(mongo_collection):
         {
             "$project": {
                 "name": "$name",
-                "averageScore": {"avg": "$topics.score"}
+                "averageScore": {"$avg": "$topics.score"}
             }
         },
         {"$sort": {"averageScore": -1}}
