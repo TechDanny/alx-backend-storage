@@ -8,6 +8,6 @@ def schools_by_topic(mongo_collection, topic):
     """
     returns the list of school having a specific topic
     """
-    topics = mongo_collection.find({"topic": topic})
-    documents = [x for x in topics]
+    get_topics = mongo_collection.find({"topics": topic})
+    documents = [x for x in get_topics]
     return documents
