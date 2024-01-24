@@ -7,7 +7,6 @@ Implementing an expiring web cache and tracker
 import redis
 import requests
 from functools import wraps
-from typing import Callable
 
 
 redisClient = redis.Redis()
