@@ -23,16 +23,25 @@ class Cache:
 
     @staticmethod
     def count_calls(method: Callable) -> Callable:
+        """
+        Returns a callable
+        """
         key = method.__qualname__
 
         @wraps(method)
         def wrapper(self, *args, **kwargs):
+            """
+            Output for each function
+            """
             self._redis.incr(key)
             return method(self, *args, **kwargs)
         return wrapper
 
     @count_calls
     def store(self, data: Union[str, bytes, int, float]) -> str:
+        """
+        Generates random keys
+        """
         key = str(uuid.uuid4())
         self._redis.set(key, data)
         return key
