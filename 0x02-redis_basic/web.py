@@ -18,7 +18,7 @@ def count_and_cache(method):
     counts total time of url accessed
     """
     @wraps(method)
-    def wrapper(url: str) -> str:
+    def wrapper(url):
         cached_key = "cached:" + url
         cached_data = redisClient.get(cached_key)
         if cached_data:
